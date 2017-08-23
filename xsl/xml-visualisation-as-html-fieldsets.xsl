@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:functx="http://www.functx.com" xmlns:local="local"
-  exclude-result-prefixes="#all">
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="#all">
 
-  <xsl:import href="../../common-xslt-functions/xsl/xslt-functions.xsl"/>
-  
+  <xsl:import href="functx-1.0-nodoc-2007-01.xslt"/>
+
   <xsl:param name="theme">terminal-window</xsl:param>
 
   <xsl:output method="xhtml" indent="yes"/>
@@ -14,8 +14,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" type="text/css"
-          href="static/css/{$theme}.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/{$theme}.css"/>
         <title>
           <xsl:value-of select="local:node-name-to-words(*)"/>
         </title>
@@ -59,5 +58,39 @@
       </dd>
     </dl>
   </xsl:template>
+
+  <xsl:function name="local:node-name-to-words" as="xs:string">
+    <xsl:param name="node"/>
+    <xsl:value-of
+      select="functx:capitalize-first(functx:camel-case-to-words($node/local-name(), ' '))"
+    />
+  </xsl:function>
+  
+  <xsl:function name="local:path" as="xs:string">
+    <xsl:param name="node" as="node()"/>
+    <xsl:variable name="nodes" as="node()*"
+      select="$node/ancestor-or-self::node()
+      [. instance of element() or . instance of attribute()]"/>
+    <xsl:variable name="xpath-items" as="xs:string*">
+      <xsl:for-each select="$nodes">
+        <xsl:choose>
+          <xsl:when test=". instance of attribute()">
+            <xsl:value-of select="concat('@', current()/name())"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="current()/name()"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:if test="preceding-sibling::node()[name() = current()/name()]">
+          <xsl:value-of
+            select="concat('[', count(preceding-sibling::*[name() = current()/name()]) +1, ']')"
+          />
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="xpath" as="xs:string"
+      select="string-join(('', $xpath-items), '/')"/>
+    <xsl:value-of select="$xpath"/>
+  </xsl:function>
 
 </xsl:stylesheet>
