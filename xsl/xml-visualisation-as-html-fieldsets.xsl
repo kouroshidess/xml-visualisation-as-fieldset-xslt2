@@ -24,7 +24,7 @@
         <form>
           <xsl:apply-templates/>
         </form>
-        <script src="static/js/jquery-latest.min.js" type="text/javascript"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript"/>
         <script src="static/js/fieldset-legend-expand.js" type="text/javascript"/>
       </body>
     </html>
