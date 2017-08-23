@@ -61,11 +61,37 @@
 
   <xsl:function name="local:node-name-to-words" as="xs:string">
     <xsl:param name="node"/>
-    <xsl:value-of
-      select="functx:capitalize-first(functx:camel-case-to-words($node/local-name(), ' '))"
-    />
+    <xsl:variable name="void" select="$node/local-name()"/>
+    <xsl:variable name="void" select="local:camel-case-to-words($void, ' ')"/>
+    <xsl:variable name="void" select="functx:capitalize-first($void)"/>
+    <xsl:variable name="void" select="translate($void, '.-_', '   ')"/>
+    <xsl:value-of select="$void"/>
   </xsl:function>
   
+  <xsl:function name="local:camel-case-to-words" as="xs:string">
+    <xsl:param name="arg" as="xs:string?"/>
+    <xsl:param name="delim" as="xs:string"/>
+    <xsl:variable name="chars" select="functx:chars($arg)"/>
+    <xsl:variable name="void"
+      select="
+      for $i in 1 to count($chars)
+      return
+      (
+      $chars[$i],
+      if (matches($chars[$i], '[a-z]') 
+      and matches($chars[$i +1], '[A-Z]')) then
+      $delim
+      else if (matches($chars[$i], '[A-Z]') 
+      and matches($chars[$i +1], '[A-Z]') 
+      and matches($chars[$i +2], '[a-z]')) then
+      $delim
+      else
+      ()
+      )"/>
+    <xsl:variable name="void" select="string-join($void, '')"/>
+    <xsl:value-of select="$void"/>
+  </xsl:function>
+
   <xsl:function name="local:path" as="xs:string">
     <xsl:param name="node" as="node()"/>
     <xsl:variable name="nodes" as="node()*"
