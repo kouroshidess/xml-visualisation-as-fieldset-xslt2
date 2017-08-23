@@ -30,7 +30,7 @@
     </html>
   </xsl:template>
 
-  <xsl:template match="*[*] | *[not(*)][not(normalize-space())][not(@*)]">
+  <xsl:template match="*[*] | *[not(*)][not(normalize-space())]">
     <fieldset
       class="{
       if (count(ancestor-or-self::*) eq 1) then 'main'
