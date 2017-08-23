@@ -1,0 +1,56 @@
+body{
+  width:80ch; /* classic terminal width for code sections */
+  background-color:black;
+  color:green;
+  font-family:courier;
+}
+fieldset.main{
+  border:hidden;
+}
+fieldset.main > legend{
+  margin:0 auto;
+  text-transform:uppercase;
+}
+fieldset.section{
+  border-style:double;
+  border-width:5px;
+  margin-bottom:15px;
+}
+fieldset.subsection{
+  border-style:solid;
+  border-width:1px;
+  margin-bottom:5px;
+}
+legend{
+  color:green;
+  font-weight:bold;
+}
+label{
+  font-weight:bold;
+}
+input{
+  background-color:black;
+  color:green;
+  font-family:courier;
+  border:0;
+  outline:none;
+  width:100%;
+}
+dl{
+  width:100%;
+  overflow:hidden;
+  padding:5px;
+  margin:0;
+}
+dt{
+  float:left;
+  width:50%;
+  padding:0;
+  margin:0;
+}
+dd{
+  float:left;
+  width:50%;
+  padding:0;
+  margin:0;
+}
