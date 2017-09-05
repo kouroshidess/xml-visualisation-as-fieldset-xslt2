@@ -1,5 +1,5 @@
 # XML visualisation as ASCII or HTML fieldset (XSLT 2.0)
-A couple of zero or low configurable stylesheets to transform *any* data-centric XML document to provide an automated visualisation as ASCII or HTML fieldset presentation. For example it is ideal as a quick rendition for FpML documents. 
+A couple of zero or low configurable stylesheets to transform *any* data-centric XML document to provide an automated visualisation as ASCII or HTML fieldset presentation. For example it is ideal as a quick and no fuss rendition for FpML documents. 
 
 ## As ASCII
 * TBC.
