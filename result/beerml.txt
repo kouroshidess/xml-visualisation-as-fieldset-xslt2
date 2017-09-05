@@ -1,0 +1,1384 @@
+╔RECIPES═════════════════════════════════════════════════════════════════════════╗
+║╔RECIPE════════════════════════════════════════════════════════════════════════╗║
+║║ NAME: Burton Ale                                                             ║║
+║║ VERSION: 1                                                                   ║║
+║║ TYPE: All Grain                                                              ║║
+║║ BREWER: Brad Smith                                                           ║║
+║║┌ASST BREWER─────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ BATCH SIZE: 18.92716800                                                      ║║
+║║ BOIL SIZE: 20.81988500                                                       ║║
+║║ BOIL TIME: 60                                                                ║║
+║║ EFFICIENCY: 72.0                                                             ║║
+║║┌HOPS────────────────────────────────────────────────────────────────────────┐║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Goldings, East Kent                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 5.50                                                              ││║║
+║║││ AMOUNT: 0.0283500                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ NOTES: Used For: General purpose hops for bittering/finishing all
+   …   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 3.50                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 1.00 oz                                                  ││║║
+║║││ INVENTORY: 1.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 60 min                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Northern Brewer                                                    ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: Germany                                                          ││║║
+║║││ ALPHA: 7.50                                                              ││║║
+║║││ AMOUNT: 0.0141750                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ NOTES: Also called Hallertauer Northern Brewers Use for: Bittering an…   ││║║
+║║││ TYPE: Both                                                               ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 4.00                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 0.50 oz                                                  ││║║
+║║││ INVENTORY: 0.50 oz                                                       ││║║
+║║││ DISPLAY TIME: 60 min                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Fuggles                                                            ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 5.00                                                              ││║║
+║║││ AMOUNT: 0.0141750                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 2.000                                                              ││║║
+║║││ NOTES: Used For: General purpose bittering/aroma for English Ales, Da…   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 2.00                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 0.50 oz                                                  ││║║
+║║││ INVENTORY: 0.50 oz                                                       ││║║
+║║││ DISPLAY TIME: 2 min                                                      ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Fuggles                                                            ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 4.50                                                              ││║║
+║║││ AMOUNT: 0.0212620                                                        ││║║
+║║││ USE: Dry Hop                                                             ││║║
+║║││ TIME: 4320.00                                                            ││║║
+║║││ NOTES: Used For: General purpose bittering/aroma for English Ales, Da…   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 2.00                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 0.75 oz                                                  ││║║
+║║││ INVENTORY: 0.75 oz                                                       ││║║
+║║││ DISPLAY TIME: 3 days                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌FERMENTABLES────────────────────────────────────────────────────────────────┐║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Pale Malt (2 Row) UK                                               ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 3.628736                                                         ││║║
+║║││ YIELD: 78.0                                                              ││║║
+║║││ COLOR: 2.5                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Base malt for all English beer styles Lower diastatic power th…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 45.0                                                    ││║║
+║║││ PROTEIN: 10.1                                                            ││║║
+║║││ MAX IN BATCH: 100.0                                                      ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 8.00 lb                                                  ││║║
+║║││ INVENTORY: 8.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.036                                                         ││║║
+║║││ DISPLAY COLOR: 2.5 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Caramel/Crystal Malt - 20L                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.453592                                                         ││║║
+║║││ YIELD: 75.0                                                              ││║║
+║║││ COLOR: 20.0                                                              ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Adds body, color and improves head retention. Also called
+    …   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.2                                                            ││║║
+║║││ MAX IN BATCH: 20.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 1.00 lb                                                  ││║║
+║║││ INVENTORY: 1.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.035                                                         ││║║
+║║││ DISPLAY COLOR: 20.0 SRM                                                  ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Brown Sugar, Light                                                 ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Sugar                                                              ││║║
+║║││ AMOUNT: 0.453592                                                         ││║║
+║║││ YIELD: 100.0                                                             ││║║
+║║││ COLOR: 8.0                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Imparts a rich sweet flavor. Used in Scottish ales, holiday al…   ││║║
+║║││ COARSE FINE DIFF: -                                                      ││║║
+║║││ MOISTURE: -                                                              ││║║
+║║││ DIASTATIC POWER: -                                                       ││║║
+║║││ PROTEIN: -                                                               ││║║
+║║││ MAX IN BATCH: 10.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 1.00 lb                                                  ││║║
+║║││ INVENTORY: 1.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.046                                                         ││║║
+║║││ DISPLAY COLOR: 8.0 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MISCS───────────────────────────────────────────────────────────────────────┐║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Irish Moss                                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Fining                                                             ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ AMOUNT: 0.001232                                                         ││║║
+║║││ TIME: 10.000                                                             ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Clarity                                                         ││║║
+║║││ NOTES: Fining agent that aids in the post-boil protein break. Reduces…   ││║║
+║║││ DISPLAY AMOUNT: 0.25 tsp                                                 ││║║
+║║││ INVENTORY: 0.00 tsp                                                      ││║║
+║║││ DISPLAY TIME: 10.0 min                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Polyclar                                                           ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Fining                                                             ││║║
+║║││ USE: Secondary                                                           ││║║
+║║││ AMOUNT: 0.007393                                                         ││║║
+║║││ TIME: 1440.000                                                           ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Chill Haze                                                      ││║║
+║║││ NOTES: Plastic powder that reduces chill haze by removing tannins and…   ││║║
+║║││ DISPLAY AMOUNT: 0.25 oz                                                  ││║║
+║║││ INVENTORY: 0.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 1.0 days                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌YEASTS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌YEAST─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Burton Ale                                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Ale                                                                ││║║
+║║││ FORM: Liquid                                                             ││║║
+║║││ AMOUNT: 0.0350130                                                        ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ LABORATORY: White Labs                                                   ││║║
+║║││ PRODUCT ID: WLP023                                                       ││║║
+║║││ MIN TEMPERATURE: 20.0000                                                 ││║║
+║║││ MAX TEMPERATURE: 22.7778                                                 ││║║
+║║││ FLOCCULATION: Medium                                                     ││║║
+║║││ ATTENUATION: 72.0                                                        ││║║
+║║││ NOTES: Burton-on-trent yeast produces a complex character. Flavors
+  …   ││║║
+║║││ BEST FOR: All English styles including Pale Ale, IPA, Porter, Stout a…   ││║║
+║║││ MAX REUSE: 5                                                             ││║║
+║║││ TIMES CULTURED: 0                                                        ││║║
+║║││ ADD TO SECONDARY: FALSE                                                  ││║║
+║║││ DISPLAY AMOUNT: 35 ml                                                    ││║║
+║║││ DISP MIN TEMP: 68.0 F                                                    ││║║
+║║││ DISP MAX TEMP: 73.0 F                                                    ││║║
+║║││ INVENTORY: 0 Pkgs                                                        ││║║
+║║││ CULTURE DATE: 7/6/2003                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌WATERS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌WATER─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Burton On Trent, UK                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ AMOUNT: 18.927168                                                        ││║║
+║║││ CALCIUM: 295.0                                                           ││║║
+║║││ BICARBONATE: 300.0                                                       ││║║
+║║││ SULFATE: 725.0                                                           ││║║
+║║││ CHLORIDE: 25.0                                                           ││║║
+║║││ SODIUM: 55.0                                                             ││║║
+║║││ MAGNESIUM: 45.0                                                          ││║║
+║║││ PH: 8.0                                                                  ││║║
+║║││ NOTES: Distinctive pale ales strongly hopped. Very hard water
+       …   ││║║
+║║││ DISPLAY AMOUNT: 5.00 gal                                                 ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌STYLE───────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: English Pale Ale                                                     │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ CATEGORY: Bitter & English Pale Ale                                        │║║
+║║│ CATEGORY NUMBER: 1                                                         │║║
+║║│ STYLE LETTER: A                                                            │║║
+║║│ STYLE GUIDE: BJCP 1999                                                     │║║
+║║│ TYPE: Ale                                                                  │║║
+║║│ OG MIN: 1.04300000                                                         │║║
+║║│ OG MAX: 1.06000000                                                         │║║
+║║│ FG MIN: 1.01000000                                                         │║║
+║║│ FG MAX: 1.02000000                                                         │║║
+║║│ IBU MIN: 20.0                                                              │║║
+║║│ IBU MAX: 40.0                                                              │║║
+║║│ COLOR MIN: 6.00000000                                                      │║║
+║║│ COLOR MAX: 12.00000000                                                     │║║
+║║│ CARB MIN: 1.5                                                              │║║
+║║│ CARB MAX: 2.4>                                                             │║║
+║║│ ABV MAX: 5.5                                                               │║║
+║║│ ABV MIN: 4.5                                                               │║║
+║║│ NOTES: Famous style from Burton-on-Trent. Stronger body than ordinary
+  …  │║║
+║║│ PROFILE: Medium to full body, with medium to high bitterness and hop
+   …  │║║
+║║│ INGREDIENTS: English malt. Crystal malt. English hops. Water with high
+ …  │║║
+║║│ EXAMPLES: Bass Pale Ale, Whitbread Pale Ale, Royal Oak                     │║║
+║║│ DISPLAY OG MIN: 1.043 SG                                                   │║║
+║║│ DISPLAY OG MAX: 1.060 SG                                                   │║║
+║║│ DISPLAY FG MIN: 1.010 SG                                                   │║║
+║║│ DISPLAY FG MAX: 1.020 SG                                                   │║║
+║║│ DISPLAY COLOR MIN: 6.0 SRM                                                 │║║
+║║│ DISPLAY COLOR MAX: 12.0 SRM                                                │║║
+║║│ OG RANGE: 1.043-1.060 SG                                                   │║║
+║║│ FG RANGE: 1.010-1.020 SG                                                   │║║
+║║│ IBU RANGE: 20.0-40.0 IBU                                                   │║║
+║║│ CARB RANGE: 1.5-2.4 vols                                                   │║║
+║║│ COLOR RANGE: 6.0-12.0 SRM                                                  │║║
+║║│ ABV RANGE: 4.5-5.5 %                                                       │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌EQUIPMENT───────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)                       │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ BOIL SIZE: 22.70566900                                                     │║║
+║║│ BATCH SIZE: 18.927168                                                      │║║
+║║│ TUN VOLUME: 18.92716800                                                    │║║
+║║│ TUN WEIGHT: 1.814368                                                       │║║
+║║│ TUN SPECIFIC HEAT: 0.300                                                   │║║
+║║│ TOP UP WATER: 0.00000000                                                   │║║
+║║│ TRUB CHILLER LOSS: 0.94635800                                              │║║
+║║│ EVAP RATE: 9.0                                                             │║║
+║║│ BOIL TIME: 60.0                                                            │║║
+║║│ CALC BOIL VOLUME: FALSE                                                    │║║
+║║│ LAUTER DEADSPACE: 0.94635800                                               │║║
+║║│ TOP UP KETTLE: 0.00000000                                                  │║║
+║║│ HOP UTILIZATION: 100.0                                                     │║║
+║║│ NOTES: Popular all grain setup. 5 Gallon Gott or Igloo cooler as mash tu…  │║║
+║║│ DISPLAY BOIL SIZE: 6.00 gal                                                │║║
+║║│ DISPLAY BATCH SIZE: 5.00 gal                                               │║║
+║║│ DISPLAY TUN VOLUME: 5.00 gal                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│ DISPLAY TOP UP WATER: 0.00 gal                                             │║║
+║║│ DISPLAY TRUB CHILLER LOSS: 0.25 gal                                        │║║
+║║│ DISPLAY LAUTER DEADSPACE: 0.25 gal                                         │║║
+║║│ DISPLAY TOP UP KETTLE: 0.00 gal                                            │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MASH────────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Single Infusion, Full Body                                           │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ GRAIN TEMP: 22.22222200                                                    │║║
+║║│ TUN TEMP: 22.22222200                                                      │║║
+║║│ SPARGE TEMP: 75.55555600                                                   │║║
+║║│ PH: 5.4                                                                    │║║
+║║│ TUN WEIGHT: 1.81436800                                                     │║║
+║║│ TUN SPECIFIC HEAT: 0.30000000                                              │║║
+║║│ EQUIP ADJUST: FALSE                                                        │║║
+║║│┌NOTES─────────────────────────────────────────────────────────────────────┐│║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│ DISPLAY GRAIN TEMP: 72.0 F                                                 │║║
+║║│ DISPLAY TUN TEMP: 72.0                                                     │║║
+║║│ DISPLAY SPARGE TEMP: 168.0 F                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│┌MASH STEPS────────────────────────────────────────────────────────────────┐│║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash In                                                          │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 10.646532                                               │││║║
+║║│││ STEP TIME: 45                                                          │││║║
+║║│││ STEP TEMP: 70.00000000                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 70.00000000                                                  │││║║
+║║│││ DESCRIPTION: Add 11.25 qt of water at 170.5 F                          │││║║
+║║│││ WATER GRAIN RATIO: 1.25                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 170.5 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 11.25 qt                                           │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash Out                                                         │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 6.813780                                                │││║║
+║║│││ STEP TIME: 10                                                          │││║║
+║║│││ STEP TEMP: 75.55555600                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 75.55555600                                                  │││║║
+║║│││ DESCRIPTION: Add 7.20 qt of water at 185.9 F                           │││║║
+║║│││ WATER GRAIN RATIO: 2.05                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 185.9 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 7.20 qt                                            │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌NOTES───────────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ TASTE NOTES: A smooth tasting pale ale -- full in body and a great long
+   … ║║
+║║ TASTE RATING: 38.0                                                           ║║
+║║ OG: 1.05400000                                                               ║║
+║║ FG: 1.01500000                                                               ║║
+║║ CARBONATION: 2.4                                                             ║║
+║║ FERMENTATION STAGES: 2                                                       ║║
+║║ PRIMARY AGE: 4                                                               ║║
+║║ PRIMARY TEMP: 20.000                                                         ║║
+║║ SECONDARY AGE: 7                                                             ║║
+║║ SECONDARY TEMP: 20.000                                                       ║║
+║║ TERTIARY AGE: 0                                                              ║║
+║║ AGE: 14.0                                                                    ║║
+║║ AGE TEMP: 11.111                                                             ║║
+║║ CARBONATION USED: 12 PSI                                                     ║║
+║║ DATE: 4/6/2003                                                               ║║
+║║ EST OG: 1.056 SG                                                             ║║
+║║ EST FG: 1.015 SG                                                             ║║
+║║ EST COLOR: 7.0 SRM                                                           ║║
+║║ IBU: 32.4 IBU                                                                ║║
+║║ IBU METHOD: Tinseth                                                          ║║
+║║ EST ABV: 5.3 %                                                               ║║
+║║ ABV: 5.1 %                                                                   ║║
+║║ ACTUAL EFFICIENCY: 69.7 %                                                    ║║
+║║ CALORIES: 242 cal/pint                                                       ║║
+║║ DISPLAY BATCH SIZE: 5.00 gal                                                 ║║
+║║ DISPLAY BOIL SIZE: 5.50 gal                                                  ║║
+║║ DISPLAY OG: 1.054 SG                                                         ║║
+║║ DISPLAY FG: 1.015 SG                                                         ║║
+║║ DISPLAY PRIMARY TEMP: 68.0 F                                                 ║║
+║║ DISPLAY SECONDARY TEMP: 68.0 F                                               ║║
+║║ DISPLAY TERTIARY TEMP: 68.0 F                                                ║║
+║║ DISPLAY AGE TEMP: 52.0 F                                                     ║║
+║╚══════════════════════════════════════════════════════════════════════════════╝║
+║╔RECIPE════════════════════════════════════════════════════════════════════════╗║
+║║ NAME: Dry Stout                                                              ║║
+║║ VERSION: 1                                                                   ║║
+║║ TYPE: All Grain                                                              ║║
+║║ BREWER: Brad Smith                                                           ║║
+║║┌ASST BREWER─────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ BATCH SIZE: 18.92716800                                                      ║║
+║║ BOIL SIZE: 20.81988500                                                       ║║
+║║ BOIL TIME: 60                                                                ║║
+║║ EFFICIENCY: 72.0                                                             ║║
+║║┌HOPS────────────────────────────────────────────────────────────────────────┐║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Goldings, East Kent                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 5.00                                                              ││║║
+║║││ AMOUNT: 0.0637860                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ NOTES: Used For: General purpose hops for bittering/finishing all
+   …   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 3.50                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 2.25 oz                                                  ││║║
+║║││ INVENTORY: 2.25 oz                                                       ││║║
+║║││ DISPLAY TIME: 60 min                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌FERMENTABLES────────────────────────────────────────────────────────────────┐║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Pale Malt (2 Row) UK                                               ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 2.267960                                                         ││║║
+║║││ YIELD: 78.0                                                              ││║║
+║║││ COLOR: 2.5                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Base malt for all English beer styles Lower diastatic power th…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 45.0                                                    ││║║
+║║││ PROTEIN: 10.1                                                            ││║║
+║║││ MAX IN BATCH: 100.0                                                      ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 5.00 lb                                                  ││║║
+║║││ INVENTORY: 5.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.036                                                         ││║║
+║║││ DISPLAY COLOR: 2.5 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Barley, Flaked                                                     ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.907184                                                         ││║║
+║║││ YIELD: 70.0                                                              ││║║
+║║││ COLOR: 1.7                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Adds significant body to Porters and Stouts. High haze produci…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 9.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.5                                                            ││║║
+║║││ MAX IN BATCH: 20.0                                                       ││║║
+║║││ RECOMMEND MASH: TRUE                                                     ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 2.00 lb                                                  ││║║
+║║││ INVENTORY: 2.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.032                                                         ││║║
+║║││ DISPLAY COLOR: 1.7 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Black Barley (Stout)                                               ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.453592                                                         ││║║
+║║││ YIELD: 55.0                                                              ││║║
+║║││ COLOR: 500.0                                                             ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Unmalted barley roasted at high temperature to create a dry,
+ …   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 5.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.2                                                            ││║║
+║║││ MAX IN BATCH: 10.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 1.00 lb                                                  ││║║
+║║││ INVENTORY: 1.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.025                                                         ││║║
+║║││ DISPLAY COLOR: 500.0 SRM                                                 ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MISCS───────────────────────────────────────────────────────────────────────┐║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Irish Moss                                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Fining                                                             ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ AMOUNT: 0.001232                                                         ││║║
+║║││ TIME: 10.000                                                             ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Clarity                                                         ││║║
+║║││ NOTES: Fining agent that aids in the post-boil protein break. Reduces…   ││║║
+║║││ DISPLAY AMOUNT: 0.25 tsp                                                 ││║║
+║║││ INVENTORY: 0.00 tsp                                                      ││║║
+║║││ DISPLAY TIME: 10.0 min                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Gypsum (Calcium Sulfate)                                           ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Water Agent                                                        ││║║
+║║││ USE: Mash                                                                ││║║
+║║││ AMOUNT: 0.010000                                                         ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ AMOUNT IS WEIGHT: TRUE                                                   ││║║
+║║││ USE FOR: Water Agent                                                     ││║║
+║║││ NOTES: Reduces PH of water for mashing and sparging. Alters water
+   …   ││║║
+║║││ DISPLAY AMOUNT: 10.00 gm                                                 ││║║
+║║││ INVENTORY: 0.00 gm                                                       ││║║
+║║││ DISPLAY TIME: 60.0 min                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌YEASTS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌YEAST─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Irish Ale                                                          ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Ale                                                                ││║║
+║║││ FORM: Liquid                                                             ││║║
+║║││ AMOUNT: 0.1250480                                                        ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ LABORATORY: Wyeast Labs                                                  ││║║
+║║││ PRODUCT ID: 1084                                                         ││║║
+║║││ MIN TEMPERATURE: 16.6667                                                 ││║║
+║║││ MAX TEMPERATURE: 22.2222                                                 ││║║
+║║││ FLOCCULATION: Medium                                                     ││║║
+║║││ ATTENUATION: 73.0                                                        ││║║
+║║││ NOTES: Dry diacetyl, fruity flavor characteristic of stouts. Full
+   …   ││║║
+║║││ BEST FOR: Irish Dry Stouts, Porter, Scottish Ale, Brown Ale, Imperial…   ││║║
+║║││ MAX REUSE: 5                                                             ││║║
+║║││ TIMES CULTURED: 0                                                        ││║║
+║║││ ADD TO SECONDARY: FALSE                                                  ││║║
+║║││ DISPLAY AMOUNT: 125 ml                                                   ││║║
+║║││ DISP MIN TEMP: 62.0 F                                                    ││║║
+║║││ DISP MAX TEMP: 72.0 F                                                    ││║║
+║║││ INVENTORY: 0 Pkgs                                                        ││║║
+║║││ CULTURE DATE: 7/6/2003                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌WATERS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌WATER─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Dublin, Ireland                                                    ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ AMOUNT: 18.927168                                                        ││║║
+║║││ CALCIUM: 115.0                                                           ││║║
+║║││ BICARBONATE: 200.0                                                       ││║║
+║║││ SULFATE: 55.0                                                            ││║║
+║║││ CHLORIDE: 19.0                                                           ││║║
+║║││ SODIUM: 12.0                                                             ││║║
+║║││ MAGNESIUM: 4.0                                                           ││║║
+║║││ PH: 8.0                                                                  ││║║
+║║││ NOTES: Irish ale water - used for dark, malty strong ales with medium…   ││║║
+║║││ DISPLAY AMOUNT: 5.00 gal                                                 ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌STYLE───────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Dry Stout (Irish)                                                    │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ CATEGORY: Stout                                                            │║║
+║║│ CATEGORY NUMBER: 1                                                         │║║
+║║│ STYLE LETTER: A                                                            │║║
+║║│ STYLE GUIDE: BJCP 1999                                                     │║║
+║║│ TYPE: Ale                                                                  │║║
+║║│ OG MIN: 1.03600000                                                         │║║
+║║│ OG MAX: 1.05000000                                                         │║║
+║║│ FG MIN: 1.00700000                                                         │║║
+║║│ FG MAX: 1.01200000                                                         │║║
+║║│ IBU MIN: 30.0                                                              │║║
+║║│ IBU MAX: 50.0                                                              │║║
+║║│ COLOR MIN: 35.00000000                                                     │║║
+║║│ COLOR MAX: 200.00000000                                                    │║║
+║║│ CARB MIN: 1.6                                                              │║║
+║║│ CARB MAX: 2.1>                                                             │║║
+║║│ ABV MAX: 5.5                                                               │║║
+║║│ ABV MIN: 3.0                                                               │║║
+║║│ NOTES: Famous Irish Stout (AKA Guiness). Dry roasted almost coffee like
+…  │║║
+║║│ PROFILE: Full body perception from Flaked Barley, thought starting gravi…  │║║
+║║│ INGREDIENTS: English malt. Roasted Barley and Flaked Barley for all grai…  │║║
+║║│ EXAMPLES: Guiness Stout                                                    │║║
+║║│ DISPLAY OG MIN: 1.036 SG                                                   │║║
+║║│ DISPLAY OG MAX: 1.050 SG                                                   │║║
+║║│ DISPLAY FG MIN: 1.007 SG                                                   │║║
+║║│ DISPLAY FG MAX: 1.012 SG                                                   │║║
+║║│ DISPLAY COLOR MIN: 35.0 SRM                                                │║║
+║║│ DISPLAY COLOR MAX: 200.0 SRM                                               │║║
+║║│ OG RANGE: 1.036-1.050 SG                                                   │║║
+║║│ FG RANGE: 1.007-1.012 SG                                                   │║║
+║║│ IBU RANGE: 30.0-50.0 IBU                                                   │║║
+║║│ CARB RANGE: 1.6-2.1 vols                                                   │║║
+║║│ COLOR RANGE: 35.0-200.0 SRM                                                │║║
+║║│ ABV RANGE: 3.0-5.5 %                                                       │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌EQUIPMENT───────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)                       │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ BOIL SIZE: 22.70566900                                                     │║║
+║║│ BATCH SIZE: 18.927168                                                      │║║
+║║│ TUN VOLUME: 18.92716800                                                    │║║
+║║│ TUN WEIGHT: 1.814368                                                       │║║
+║║│ TUN SPECIFIC HEAT: 0.300                                                   │║║
+║║│ TOP UP WATER: 0.00000000                                                   │║║
+║║│ TRUB CHILLER LOSS: 0.94635800                                              │║║
+║║│ EVAP RATE: 9.0                                                             │║║
+║║│ BOIL TIME: 60.0                                                            │║║
+║║│ CALC BOIL VOLUME: FALSE                                                    │║║
+║║│ LAUTER DEADSPACE: 0.94635800                                               │║║
+║║│ TOP UP KETTLE: 0.00000000                                                  │║║
+║║│ HOP UTILIZATION: 100.0                                                     │║║
+║║│ NOTES: Popular all grain setup. 5 Gallon Gott or Igloo cooler as mash tu…  │║║
+║║│ DISPLAY BOIL SIZE: 6.00 gal                                                │║║
+║║│ DISPLAY BATCH SIZE: 5.00 gal                                               │║║
+║║│ DISPLAY TUN VOLUME: 5.00 gal                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│ DISPLAY TOP UP WATER: 0.00 gal                                             │║║
+║║│ DISPLAY TRUB CHILLER LOSS: 0.25 gal                                        │║║
+║║│ DISPLAY LAUTER DEADSPACE: 0.25 gal                                         │║║
+║║│ DISPLAY TOP UP KETTLE: 0.00 gal                                            │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MASH────────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Single Infusion, Medium Body                                         │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ GRAIN TEMP: 22.22222200                                                    │║║
+║║│ TUN TEMP: 22.22222200                                                      │║║
+║║│ SPARGE TEMP: 75.55555600                                                   │║║
+║║│ PH: 5.4                                                                    │║║
+║║│ TUN WEIGHT: 1.81436800                                                     │║║
+║║│ TUN SPECIFIC HEAT: 0.30000000                                              │║║
+║║│ EQUIP ADJUST: FALSE                                                        │║║
+║║│┌NOTES─────────────────────────────────────────────────────────────────────┐│║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│ DISPLAY GRAIN TEMP: 72.0 F                                                 │║║
+║║│ DISPLAY TUN TEMP: 72.0                                                     │║║
+║║│ DISPLAY SPARGE TEMP: 168.0 F                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│┌MASH STEPS────────────────────────────────────────────────────────────────┐│║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash In                                                          │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 9.463584                                                │││║║
+║║│││ STEP TIME: 60                                                          │││║║
+║║│││ STEP TEMP: 67.77777800                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 67.77777800                                                  │││║║
+║║│││ DESCRIPTION: Add 10.00 qt of water at 165.9 F                          │││║║
+║║│││ WATER GRAIN RATIO: 1.25                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 165.9 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 10.00 qt                                           │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash Out                                                         │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 6.056694                                                │││║║
+║║│││ STEP TIME: 10                                                          │││║║
+║║│││ STEP TEMP: 75.55555600                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 75.55555600                                                  │││║║
+║║│││ DESCRIPTION: Add 6.40 qt of water at 193.1 F                           │││║║
+║║│││ WATER GRAIN RATIO: 2.05                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 193.1 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 6.40 qt                                            │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ NOTES: A very simple all grain beer that produces a great Guiness-style
+   … ║║
+║║ TASTE NOTES: One of my favorite stock beers - I always keep a keg on hand.
+… ║║
+║║ TASTE RATING: 44.0                                                           ║║
+║║ OG: 1.03800000                                                               ║║
+║║ FG: 1.01200000                                                               ║║
+║║ CARBONATION: 2.3                                                             ║║
+║║ FERMENTATION STAGES: 2                                                       ║║
+║║ PRIMARY AGE: 4                                                               ║║
+║║ PRIMARY TEMP: 20.000                                                         ║║
+║║ SECONDARY AGE: 7                                                             ║║
+║║ SECONDARY TEMP: 20.000                                                       ║║
+║║ TERTIARY AGE: 0                                                              ║║
+║║ AGE: 7.0                                                                     ║║
+║║ AGE TEMP: 5.000                                                              ║║
+║║ CARBONATION USED: -                                                          ║║
+║║ DATE: 4/1/2003                                                               ║║
+║║ EST OG: 1.039 SG                                                             ║║
+║║ EST FG: 1.010 SG                                                             ║║
+║║ EST COLOR: 35.9 SRM                                                          ║║
+║║ IBU: 44.2 IBU                                                                ║║
+║║ IBU METHOD: Tinseth                                                          ║║
+║║ EST ABV: 3.7 %                                                               ║║
+║║ ABV: 3.4 %                                                                   ║║
+║║ ACTUAL EFFICIENCY: 70.6 %                                                    ║║
+║║ CALORIES: 168 cal/pint                                                       ║║
+║║ DISPLAY BATCH SIZE: 5.00 gal                                                 ║║
+║║ DISPLAY BOIL SIZE: 5.50 gal                                                  ║║
+║║ DISPLAY OG: 1.038 SG                                                         ║║
+║║ DISPLAY FG: 1.012 SG                                                         ║║
+║║ DISPLAY PRIMARY TEMP: 68.0 F                                                 ║║
+║║ DISPLAY SECONDARY TEMP: 68.0 F                                               ║║
+║║ DISPLAY TERTIARY TEMP: 68.0 F                                                ║║
+║║ DISPLAY AGE TEMP: 41.0 F                                                     ║║
+║╚══════════════════════════════════════════════════════════════════════════════╝║
+║╔RECIPE════════════════════════════════════════════════════════════════════════╗║
+║║ NAME: Porter                                                                 ║║
+║║ VERSION: 1                                                                   ║║
+║║ TYPE: All Grain                                                              ║║
+║║ BREWER: Brad Smith                                                           ║║
+║║┌ASST BREWER─────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ BATCH SIZE: 18.92716800                                                      ║║
+║║ BOIL SIZE: 18.92716800                                                       ║║
+║║ BOIL TIME: 60                                                                ║║
+║║ EFFICIENCY: 72.0                                                             ║║
+║║┌HOPS────────────────────────────────────────────────────────────────────────┐║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Fuggles                                                            ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 4.50                                                              ││║║
+║║││ AMOUNT: 0.0566990                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ NOTES: Used For: General purpose bittering/aroma for English Ales, Da…   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 2.00                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 2.00 oz                                                  ││║║
+║║││ INVENTORY: 2.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 60 min                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌FERMENTABLES────────────────────────────────────────────────────────────────┐║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Pale Malt (2 Row) Bel                                              ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 3.628736                                                         ││║║
+║║││ YIELD: 80.0                                                              ││║║
+║║││ COLOR: 3.2                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: Belgium                                                          ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Base malt for all beer styles Higher potential yield than US,
+…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 60.0                                                    ││║║
+║║││ PROTEIN: 10.5                                                            ││║║
+║║││ MAX IN BATCH: 100.0                                                      ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 8.00 lb                                                  ││║║
+║║││ INVENTORY: 8.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.037                                                         ││║║
+║║││ DISPLAY COLOR: 3.2 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Black (Patent) Malt                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.453592                                                         ││║║
+║║││ YIELD: 55.0                                                              ││║║
+║║││ COLOR: 500.0                                                             ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Dark color and dry roasted flavor characteristic of Stouts and…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 6.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.2                                                            ││║║
+║║││ MAX IN BATCH: 10.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 1.00 lb                                                  ││║║
+║║││ INVENTORY: 1.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.025                                                         ││║║
+║║││ DISPLAY COLOR: 500.0 SRM                                                 ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Caramel/Crystal Malt - 10L                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.453592                                                         ││║║
+║║││ YIELD: 75.0                                                              ││║║
+║║││ COLOR: 10.0                                                              ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Adds body, color and improves head retention. Also called
+    …   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.2                                                            ││║║
+║║││ MAX IN BATCH: 20.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 1.00 lb                                                  ││║║
+║║││ INVENTORY: 1.00 lb                                                       ││║║
+║║││ POTENTIAL: 1.035                                                         ││║║
+║║││ DISPLAY COLOR: 10.0 SRM                                                  ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Chocolate Malt                                                     ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.226796                                                         ││║║
+║║││ YIELD: 60.0                                                              ││║║
+║║││ COLOR: 350.0                                                             ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Dark malt that gives a rich red or brown color and nutty flavo…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 13.2                                                            ││║║
+║║││ MAX IN BATCH: 10.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 0.50 lb                                                  ││║║
+║║││ INVENTORY: 0.50 lb                                                       ││║║
+║║││ POTENTIAL: 1.028                                                         ││║║
+║║││ DISPLAY COLOR: 350.0 SRM                                                 ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Munich Malt - 10L                                                  ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 0.226796                                                         ││║║
+║║││ YIELD: 77.0                                                              ││║║
+║║││ COLOR: 10.0                                                              ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Malty-sweet flavor characteristic and adds a slight orange col…   ││║║
+║║││ COARSE FINE DIFF: 2.8                                                    ││║║
+║║││ MOISTURE: 5.0                                                            ││║║
+║║││ DIASTATIC POWER: 50.0                                                    ││║║
+║║││ PROTEIN: 13.5                                                            ││║║
+║║││ MAX IN BATCH: 80.0                                                       ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 0.50 lb                                                  ││║║
+║║││ INVENTORY: 0.50 lb                                                       ││║║
+║║││ POTENTIAL: 1.035                                                         ││║║
+║║││ DISPLAY COLOR: 10.0 SRM                                                  ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MISCS───────────────────────────────────────────────────────────────────────┐║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Irish Moss                                                         ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Fining                                                             ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ AMOUNT: 0.001232                                                         ││║║
+║║││ TIME: 10.000                                                             ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Clarity                                                         ││║║
+║║││ NOTES: Fining agent that aids in the post-boil protein break. Reduces…   ││║║
+║║││ DISPLAY AMOUNT: 0.25 tsp                                                 ││║║
+║║││ INVENTORY: 0.00 tsp                                                      ││║║
+║║││ DISPLAY TIME: 10.0 min                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Gypsum (Calcium Sulfate)                                           ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Water Agent                                                        ││║║
+║║││ USE: Mash                                                                ││║║
+║║││ AMOUNT: 0.010000                                                         ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ AMOUNT IS WEIGHT: TRUE                                                   ││║║
+║║││ USE FOR: Water Agent                                                     ││║║
+║║││ NOTES: Reduces PH of water for mashing and sparging. Alters water
+   …   ││║║
+║║││ DISPLAY AMOUNT: 10.00 gm                                                 ││║║
+║║││ INVENTORY: 0.00 gm                                                       ││║║
+║║││ DISPLAY TIME: 60.0 min                                                   ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌YEASTS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌YEAST─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: English Ale                                                        ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Ale                                                                ││║║
+║║││ FORM: Liquid                                                             ││║║
+║║││ AMOUNT: 0.0350130                                                        ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ LABORATORY: White Labs                                                   ││║║
+║║││ PRODUCT ID: WLP002                                                       ││║║
+║║││ MIN TEMPERATURE: 18.3333                                                 ││║║
+║║││ MAX TEMPERATURE: 20.0000                                                 ││║║
+║║││ FLOCCULATION: Very High                                                  ││║║
+║║││ ATTENUATION: 66.5                                                        ││║║
+║║││ NOTES: Classic ESB strain best for English style milds, bitters, port…   ││║║
+║║││ BEST FOR: English Pale Ale, ESB, India Pale Ale, Brown Ale, Porter,
+ …   ││║║
+║║││ MAX REUSE: 5                                                             ││║║
+║║││ TIMES CULTURED: 0                                                        ││║║
+║║││ ADD TO SECONDARY: FALSE                                                  ││║║
+║║││ DISPLAY AMOUNT: 35 ml                                                    ││║║
+║║││ DISP MIN TEMP: 65.0 F                                                    ││║║
+║║││ DISP MAX TEMP: 68.0 F                                                    ││║║
+║║││ INVENTORY: 0 Pkgs                                                        ││║║
+║║││ CULTURE DATE: 7/6/2003                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌WATERS──────────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌STYLE───────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Robust Porter                                                        │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ CATEGORY: Porter                                                           │║║
+║║│ CATEGORY NUMBER: 15                                                        │║║
+║║│ STYLE LETTER: A                                                            │║║
+║║│ STYLE GUIDE: BJCP 1999                                                     │║║
+║║│ TYPE: Ale                                                                  │║║
+║║│ OG MIN: 1.05000000                                                         │║║
+║║│ OG MAX: 1.06500000                                                         │║║
+║║│ FG MIN: 1.01200000                                                         │║║
+║║│ FG MAX: 1.01600000                                                         │║║
+║║│ IBU MIN: 25.0                                                              │║║
+║║│ IBU MAX: 45.0                                                              │║║
+║║│ COLOR MIN: 30.00000000                                                     │║║
+║║│ COLOR MAX: 60.00000000                                                     │║║
+║║│ CARB MIN: 1.8                                                              │║║
+║║│ CARB MAX: 2.5>                                                             │║║
+║║│ ABV MAX: 6.0                                                               │║║
+║║│ ABV MIN: 4.8                                                               │║║
+║║│ NOTES: Stronger, darker version of porter with a slight dryness. Flavor
+…  │║║
+║║│ PROFILE: Medium to full body, slightly dry. Well balanced, low to medium…  │║║
+║║│ INGREDIENTS: English malt. Dark Crystal, chocolate and black or roast
+  …  │║║
+║║│ EXAMPLES: Sierra Nevada Porter, Anchor Porter                              │║║
+║║│ DISPLAY OG MIN: 1.050 SG                                                   │║║
+║║│ DISPLAY OG MAX: 1.065 SG                                                   │║║
+║║│ DISPLAY FG MIN: 1.012 SG                                                   │║║
+║║│ DISPLAY FG MAX: 1.016 SG                                                   │║║
+║║│ DISPLAY COLOR MIN: 30.0 SRM                                                │║║
+║║│ DISPLAY COLOR MAX: 60.0 SRM                                                │║║
+║║│ OG RANGE: 1.050-1.065 SG                                                   │║║
+║║│ FG RANGE: 1.012-1.016 SG                                                   │║║
+║║│ IBU RANGE: 25.0-45.0 IBU                                                   │║║
+║║│ CARB RANGE: 1.8-2.5 vols                                                   │║║
+║║│ COLOR RANGE: 30.0-60.0 SRM                                                 │║║
+║║│ ABV RANGE: 4.8-6.0 %                                                       │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌EQUIPMENT───────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)                       │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ BOIL SIZE: 22.70566900                                                     │║║
+║║│ BATCH SIZE: 18.927168                                                      │║║
+║║│ TUN VOLUME: 18.92716800                                                    │║║
+║║│ TUN WEIGHT: 1.814368                                                       │║║
+║║│ TUN SPECIFIC HEAT: 0.300                                                   │║║
+║║│ TOP UP WATER: 0.00000000                                                   │║║
+║║│ TRUB CHILLER LOSS: 0.94635800                                              │║║
+║║│ EVAP RATE: 9.0                                                             │║║
+║║│ BOIL TIME: 60.0                                                            │║║
+║║│ CALC BOIL VOLUME: FALSE                                                    │║║
+║║│ LAUTER DEADSPACE: 0.94635800                                               │║║
+║║│ TOP UP KETTLE: 0.00000000                                                  │║║
+║║│ HOP UTILIZATION: 100.0                                                     │║║
+║║│ NOTES: Popular all grain setup. 5 Gallon Gott or Igloo cooler as mash tu…  │║║
+║║│ DISPLAY BOIL SIZE: 6.00 gal                                                │║║
+║║│ DISPLAY BATCH SIZE: 5.00 gal                                               │║║
+║║│ DISPLAY TUN VOLUME: 5.00 gal                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│ DISPLAY TOP UP WATER: 0.00 gal                                             │║║
+║║│ DISPLAY TRUB CHILLER LOSS: 0.25 gal                                        │║║
+║║│ DISPLAY LAUTER DEADSPACE: 0.25 gal                                         │║║
+║║│ DISPLAY TOP UP KETTLE: 0.00 gal                                            │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MASH────────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Single Infusion, Medium Body                                         │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ GRAIN TEMP: 22.22222200                                                    │║║
+║║│ TUN TEMP: 22.22222200                                                      │║║
+║║│ SPARGE TEMP: 75.55555600                                                   │║║
+║║│ PH: 5.4                                                                    │║║
+║║│ TUN WEIGHT: 1.81436800                                                     │║║
+║║│ TUN SPECIFIC HEAT: 0.30000000                                              │║║
+║║│ EQUIP ADJUST: FALSE                                                        │║║
+║║│┌NOTES─────────────────────────────────────────────────────────────────────┐│║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│ DISPLAY GRAIN TEMP: 72.0 F                                                 │║║
+║║│ DISPLAY TUN TEMP: 72.0                                                     │║║
+║║│ DISPLAY SPARGE TEMP: 168.0 F                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│┌MASH STEPS────────────────────────────────────────────────────────────────┐│║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash In                                                          │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 13.012428                                               │││║║
+║║│││ STEP TIME: 60                                                          │││║║
+║║│││ STEP TEMP: 67.77777800                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 67.77777800                                                  │││║║
+║║│││ DESCRIPTION: Add 13.75 qt of water at 165.9 F                          │││║║
+║║│││ WATER GRAIN RATIO: 1.25                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 165.9 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 13.75 qt                                           │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash Out                                                         │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 8.327954                                                │││║║
+║║│││ STEP TIME: 10                                                          │││║║
+║║│││ STEP TEMP: 75.55555600                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 75.55555600                                                  │││║║
+║║│││ DESCRIPTION: Add 8.80 qt of water at 193.1 F                           │││║║
+║║│││ WATER GRAIN RATIO: 2.05                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 193.1 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 8.80 qt                                            │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌NOTES───────────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ TASTE NOTES: Smooth tasting complex English porter. A bit on the
+      "rob… ║║
+║║ TASTE RATING: 40.0                                                           ║║
+║║ OG: 1.05400000                                                               ║║
+║║ FG: 1.01800000                                                               ║║
+║║ CARBONATION: 2.3                                                             ║║
+║║ FERMENTATION STAGES: 2                                                       ║║
+║║ PRIMARY AGE: 4                                                               ║║
+║║ PRIMARY TEMP: 20.000                                                         ║║
+║║ SECONDARY AGE: 7                                                             ║║
+║║ SECONDARY TEMP: 20.000                                                       ║║
+║║ TERTIARY AGE: 0                                                              ║║
+║║ AGE: 28.0                                                                    ║║
+║║ AGE TEMP: 11.111                                                             ║║
+║║ CARBONATION USED: -                                                          ║║
+║║ DATE: 4/16/2003                                                              ║║
+║║ EST OG: 1.056 SG                                                             ║║
+║║ EST FG: 1.018 SG                                                             ║║
+║║ EST COLOR: 44.9 SRM                                                          ║║
+║║ IBU: 29.5 IBU                                                                ║║
+║║ IBU METHOD: Tinseth                                                          ║║
+║║ EST ABV: 4.9 %                                                               ║║
+║║ ABV: 4.7 %                                                                   ║║
+║║ ACTUAL EFFICIENCY: 70.0 %                                                    ║║
+║║ CALORIES: 244 cal/pint                                                       ║║
+║║ DISPLAY BATCH SIZE: 5.00 gal                                                 ║║
+║║ DISPLAY BOIL SIZE: 5.00 gal                                                  ║║
+║║ DISPLAY OG: 1.054 SG                                                         ║║
+║║ DISPLAY FG: 1.018 SG                                                         ║║
+║║ DISPLAY PRIMARY TEMP: 68.0 F                                                 ║║
+║║ DISPLAY SECONDARY TEMP: 68.0 F                                               ║║
+║║ DISPLAY TERTIARY TEMP: 68.0 F                                                ║║
+║║ DISPLAY AGE TEMP: 52.0 F                                                     ║║
+║╚══════════════════════════════════════════════════════════════════════════════╝║
+║╔RECIPE════════════════════════════════════════════════════════════════════════╗║
+║║ NAME: Wit                                                                    ║║
+║║ VERSION: 1                                                                   ║║
+║║ TYPE: All Grain                                                              ║║
+║║ BREWER: Brad Smith                                                           ║║
+║║┌ASST BREWER─────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ BATCH SIZE: 19.68425500                                                      ║║
+║║ BOIL SIZE: 19.68425500                                                       ║║
+║║ BOIL TIME: 60                                                                ║║
+║║ EFFICIENCY: 75.0                                                             ║║
+║║┌HOPS────────────────────────────────────────────────────────────────────────┐║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Goldings, East Kent                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
+║║││ ALPHA: 5.00                                                              ││║║
+║║││ AMOUNT: 0.0283500                                                        ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ TIME: 60.000                                                             ││║║
+║║││ NOTES: Used For: General purpose hops for bittering/finishing all
+   …   ││║║
+║║││ TYPE: Aroma                                                              ││║║
+║║││ FORM: Pellet                                                             ││║║
+║║││ BETA: 3.50                                                               ││║║
+║║││ HSI: 35.0                                                                ││║║
+║║││ DISPLAY AMOUNT: 1.00 oz                                                  ││║║
+║║││ INVENTORY: 1.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 60 min                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌FERMENTABLES────────────────────────────────────────────────────────────────┐║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Pale Malt (2 Row) Bel                                              ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 2.041164                                                         ││║║
+║║││ YIELD: 80.0                                                              ││║║
+║║││ COLOR: 3.2                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: Belgium                                                          ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Base malt for all beer styles Higher potential yield than US,
+…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 4.0                                                            ││║║
+║║││ DIASTATIC POWER: 60.0                                                    ││║║
+║║││ PROTEIN: 10.5                                                            ││║║
+║║││ MAX IN BATCH: 100.0                                                      ││║║
+║║││ RECOMMEND MASH: FALSE                                                    ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 4.50 lb                                                  ││║║
+║║││ INVENTORY: 4.50 lb                                                       ││║║
+║║││ POTENTIAL: 1.037                                                         ││║║
+║║││ DISPLAY COLOR: 3.2 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌FERMENTABLE───────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Wheat, Flaked                                                      ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Grain                                                              ││║║
+║║││ AMOUNT: 2.041164                                                         ││║║
+║║││ YIELD: 77.0                                                              ││║║
+║║││ COLOR: 1.6                                                               ││║║
+║║││ ADD AFTER BOIL: FALSE                                                    ││║║
+║║││ ORIGIN: US                                                               ││║║
+║║││┌SUPPLIER────────────────────────────────────────────────────────────────┐││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││ NOTES: Flaked wheat adds to increased body and foam retention Used in…   ││║║
+║║││ COARSE FINE DIFF: 1.5                                                    ││║║
+║║││ MOISTURE: 9.0                                                            ││║║
+║║││ DIASTATIC POWER: 0.0                                                     ││║║
+║║││ PROTEIN: 16.0                                                            ││║║
+║║││ MAX IN BATCH: 40.0                                                       ││║║
+║║││ RECOMMEND MASH: TRUE                                                     ││║║
+║║││ IBU GAL PER LB: 0.000                                                    ││║║
+║║││ DISPLAY AMOUNT: 4.50 lb                                                  ││║║
+║║││ INVENTORY: 4.50 lb                                                       ││║║
+║║││ POTENTIAL: 1.035                                                         ││║║
+║║││ DISPLAY COLOR: 1.6 SRM                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MISCS───────────────────────────────────────────────────────────────────────┐║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Coriander Seed                                                     ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Spice                                                              ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ AMOUNT: 0.022180                                                         ││║║
+║║││ TIME: 5.000                                                              ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Belgian Wit                                                     ││║║
+║║││ NOTES: Used in Belgian Wit, Whites, and Holiday ales. Very good when
+…   ││║║
+║║││ DISPLAY AMOUNT: 0.75 oz                                                  ││║║
+║║││ INVENTORY: 0.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 5.0 min                                                    ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║│┌MISC──────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Orange Peel, Bitter                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Spice                                                              ││║║
+║║││ USE: Boil                                                                ││║║
+║║││ AMOUNT: 0.022180                                                         ││║║
+║║││ TIME: 5.000                                                              ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ USE FOR: Belgian Wit                                                     ││║║
+║║││ NOTES: Made from the Curaco Orange Peel, peels are green-gray in colo…   ││║║
+║║││ DISPLAY AMOUNT: 0.75 oz                                                  ││║║
+║║││ INVENTORY: 0.00 oz                                                       ││║║
+║║││ DISPLAY TIME: 5.0 min                                                    ││║║
+║║││ BATCH SIZE: 5.00 gal                                                     ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌YEASTS──────────────────────────────────────────────────────────────────────┐║║
+║║│┌YEAST─────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Belgian Wit Ale                                                    ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ TYPE: Wheat                                                              ││║║
+║║││ FORM: Liquid                                                             ││║║
+║║││ AMOUNT: 0.0350130                                                        ││║║
+║║││ AMOUNT IS WEIGHT: FALSE                                                  ││║║
+║║││ LABORATORY: White Labs                                                   ││║║
+║║││ PRODUCT ID: WLP400                                                       ││║║
+║║││ MIN TEMPERATURE: 19.4444                                                 ││║║
+║║││ MAX TEMPERATURE: 23.3333                                                 ││║║
+║║││ FLOCCULATION: Low                                                        ││║║
+║║││ ATTENUATION: 76.0                                                        ││║║
+║║││ NOTES: Phenolic and tart. The original yeast used to produce Wit in
+ …   ││║║
+║║││ BEST FOR: Belgian Wit                                                    ││║║
+║║││ MAX REUSE: 5                                                             ││║║
+║║││ TIMES CULTURED: 0                                                        ││║║
+║║││ ADD TO SECONDARY: FALSE                                                  ││║║
+║║││ DISPLAY AMOUNT: 35 ml                                                    ││║║
+║║││ DISP MIN TEMP: 67.0 F                                                    ││║║
+║║││ DISP MAX TEMP: 74.0 F                                                    ││║║
+║║││ INVENTORY: 0 Pkgs                                                        ││║║
+║║││ CULTURE DATE: 7/6/2003                                                   ││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌WATERS──────────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌STYLE───────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Witbier                                                              │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ CATEGORY: Belgian & French Ale                                             │║║
+║║│ CATEGORY NUMBER: 1                                                         │║║
+║║│ STYLE LETTER: A                                                            │║║
+║║│ STYLE GUIDE: BJCP 1999                                                     │║║
+║║│ TYPE: Ale                                                                  │║║
+║║│ OG MIN: 1.04400000                                                         │║║
+║║│ OG MAX: 1.05500000                                                         │║║
+║║│ FG MIN: 1.00800000                                                         │║║
+║║│ FG MAX: 1.01200000                                                         │║║
+║║│ IBU MIN: 15.0                                                              │║║
+║║│ IBU MAX: 25.0                                                              │║║
+║║│ COLOR MIN: 2.00000000                                                      │║║
+║║│ COLOR MAX: 4.00000000                                                      │║║
+║║│ CARB MIN: 2.1                                                              │║║
+║║│ CARB MAX: 2.7>                                                             │║║
+║║│ ABV MAX: 5.5                                                               │║║
+║║│ ABV MIN: 4.1                                                               │║║
+║║│ NOTES: Distinctive Wit or "White" beer spiced with bitter
+        Curaca…  │║║
+║║│ PROFILE: Light to medium body. Unmalted wheat adds body and disctinctive…  │║║
+║║│ INGREDIENTS: Belgian pale malt. Up to 50% unmalted wheat (torrified or
+ …  │║║
+║║│ EXAMPLES: Celis White, Wieckse Witte                                       │║║
+║║│ DISPLAY OG MIN: 1.044 SG                                                   │║║
+║║│ DISPLAY OG MAX: 1.055 SG                                                   │║║
+║║│ DISPLAY FG MIN: 1.008 SG                                                   │║║
+║║│ DISPLAY FG MAX: 1.012 SG                                                   │║║
+║║│ DISPLAY COLOR MIN: 2.0 SRM                                                 │║║
+║║│ DISPLAY COLOR MAX: 4.0 SRM                                                 │║║
+║║│ OG RANGE: 1.044-1.055 SG                                                   │║║
+║║│ FG RANGE: 1.008-1.012 SG                                                   │║║
+║║│ IBU RANGE: 15.0-25.0 IBU                                                   │║║
+║║│ CARB RANGE: 2.1-2.7 vols                                                   │║║
+║║│ COLOR RANGE: 2.0-4.0 SRM                                                   │║║
+║║│ ABV RANGE: 4.1-5.5 %                                                       │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌EQUIPMENT───────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)                       │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ BOIL SIZE: 22.70566900                                                     │║║
+║║│ BATCH SIZE: 18.927168                                                      │║║
+║║│ TUN VOLUME: 18.92716800                                                    │║║
+║║│ TUN WEIGHT: 1.814368                                                       │║║
+║║│ TUN SPECIFIC HEAT: 0.300                                                   │║║
+║║│ TOP UP WATER: 0.00000000                                                   │║║
+║║│ TRUB CHILLER LOSS: 0.94635800                                              │║║
+║║│ EVAP RATE: 9.0                                                             │║║
+║║│ BOIL TIME: 60.0                                                            │║║
+║║│ CALC BOIL VOLUME: FALSE                                                    │║║
+║║│ LAUTER DEADSPACE: 0.94635800                                               │║║
+║║│ TOP UP KETTLE: 0.00000000                                                  │║║
+║║│ HOP UTILIZATION: 100.0                                                     │║║
+║║│ NOTES: Popular all grain setup. 5 Gallon Gott or Igloo cooler as mash tu…  │║║
+║║│ DISPLAY BOIL SIZE: 6.00 gal                                                │║║
+║║│ DISPLAY BATCH SIZE: 5.00 gal                                               │║║
+║║│ DISPLAY TUN VOLUME: 5.00 gal                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│ DISPLAY TOP UP WATER: 0.00 gal                                             │║║
+║║│ DISPLAY TRUB CHILLER LOSS: 0.25 gal                                        │║║
+║║│ DISPLAY LAUTER DEADSPACE: 0.25 gal                                         │║║
+║║│ DISPLAY TOP UP KETTLE: 0.00 gal                                            │║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║┌MASH────────────────────────────────────────────────────────────────────────┐║║
+║║│ NAME: Single Infusion, Medium Body                                         │║║
+║║│ VERSION: 1                                                                 │║║
+║║│ GRAIN TEMP: 22.22222200                                                    │║║
+║║│ TUN TEMP: 22.22222200                                                      │║║
+║║│ SPARGE TEMP: 75.55555600                                                   │║║
+║║│ PH: 5.4                                                                    │║║
+║║│ TUN WEIGHT: 1.81436800                                                     │║║
+║║│ TUN SPECIFIC HEAT: 0.30000000                                              │║║
+║║│ EQUIP ADJUST: FALSE                                                        │║║
+║║│ NOTES: Simple single infusion mash for use with most modern well modifie…  │║║
+║║│ DISPLAY GRAIN TEMP: 72.0 F                                                 │║║
+║║│ DISPLAY TUN TEMP: 72.0                                                     │║║
+║║│ DISPLAY SPARGE TEMP: 168.0 F                                               │║║
+║║│ DISPLAY TUN WEIGHT: 4.00 lb                                                │║║
+║║│┌MASH STEPS────────────────────────────────────────────────────────────────┐│║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash In                                                          │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 10.646532                                               │││║║
+║║│││ STEP TIME: 60                                                          │││║║
+║║│││ STEP TEMP: 67.77777800                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 67.77777800                                                  │││║║
+║║│││ DESCRIPTION: Add 11.25 qt of water at 165.9 F                          │││║║
+║║│││ WATER GRAIN RATIO: 1.25                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 165.9 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 11.25 qt                                           │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║││┌MASH STEP───────────────────────────────────────────────────────────────┐││║║
+║║│││ NAME: Mash Out                                                         │││║║
+║║│││ VERSION: 1                                                             │││║║
+║║│││ TYPE: Infusion                                                         │││║║
+║║│││ INFUSE AMOUNT: 5.962058                                                │││║║
+║║│││ STEP TIME: 10                                                          │││║║
+║║│││ STEP TEMP: 75.55555600                                                 │││║║
+║║│││ RAMP TIME: 2                                                           │││║║
+║║│││ END TEMP: 75.55555600                                                  │││║║
+║║│││ DESCRIPTION: Add 6.30 qt of water at 196.6 F                           │││║║
+║║│││ WATER GRAIN RATIO: 1.95                                                │││║║
+║║│││ DECOCTION AMT: 0.00 qt                                                 │││║║
+║║│││ INFUSE TEMP: 196.6 F                                                   │││║║
+║║│││ DISPLAY STEP TEMP: DISPLAY_STEP_TEMP                                   │││║║
+║║│││ DISPLAY INFUSE AMT: 6.30 qt                                            │││║║
+║║││└────────────────────────────────────────────────────────────────────────┘││║║
+║║│└──────────────────────────────────────────────────────────────────────────┘│║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ NOTES: Many thanks to Jay Russ for starting me on Wit - and providing some
+… ║║
+║║ TASTE NOTES: Great tasting Wit! A summer favorite! Lacy white head that
+   … ║║
+║║ TASTE RATING: 47.0                                                           ║║
+║║ OG: 1.04700000                                                               ║║
+║║ FG: 1.01300000                                                               ║║
+║║ CARBONATION: 2.4                                                             ║║
+║║ FERMENTATION STAGES: 2                                                       ║║
+║║ PRIMARY AGE: 4                                                               ║║
+║║ PRIMARY TEMP: 20.000                                                         ║║
+║║ SECONDARY AGE: 7                                                             ║║
+║║ SECONDARY TEMP: 20.000                                                       ║║
+║║ TERTIARY AGE: 0                                                              ║║
+║║ AGE: 28.0                                                                    ║║
+║║ AGE TEMP: 11.111                                                             ║║
+║║ CARBONATION USED: -                                                          ║║
+║║ DATE: 4/17/2003                                                              ║║
+║║ EST OG: 1.047 SG                                                             ║║
+║║ EST FG: 1.011 SG                                                             ║║
+║║ EST COLOR: 4.0 SRM                                                           ║║
+║║ IBU: 17.0 IBU                                                                ║║
+║║ IBU METHOD: Tinseth                                                          ║║
+║║ EST ABV: 4.7 %                                                               ║║
+║║ ABV: 4.4 %                                                                   ║║
+║║ ACTUAL EFFICIENCY: 75.2 %                                                    ║║
+║║ CALORIES: 209 cal/pint                                                       ║║
+║║ DISPLAY BATCH SIZE: 5.20 gal                                                 ║║
+║║ DISPLAY BOIL SIZE: 5.20 gal                                                  ║║
+║║ DISPLAY OG: 1.047 SG                                                         ║║
+║║ DISPLAY FG: 1.013 SG                                                         ║║
+║║ DISPLAY PRIMARY TEMP: 68.0 F                                                 ║║
+║║ DISPLAY SECONDARY TEMP: 68.0 F                                               ║║
+║║ DISPLAY TERTIARY TEMP: 68.0 F                                                ║║
+║║ DISPLAY AGE TEMP: 52.0 F                                                     ║║
+║╚══════════════════════════════════════════════════════════════════════════════╝║
+╚════════════════════════════════════════════════════════════════════════════════╝
