@@ -2,7 +2,23 @@
 A couple of zero or low configurable stylesheets to transform *any* data-centric XML document to provide an automated visualisation as ASCII or HTML fieldset presentation. For example it is ideal as a quick and no fuss rendition for FpML documents. 
 
 ## As ASCII
-* TBC.
+╔RECIPES═════════════════════════════════════════════════════════════════════════╗
+║╔RECIPE════════════════════════════════════════════════════════════════════════╗║
+║║ NAME: Burton Ale                                                             ║║
+║║ VERSION: 1                                                                   ║║
+║║ TYPE: All Grain                                                              ║║
+║║ BREWER: Brad Smith                                                           ║║
+║║┌ASST BREWER─────────────────────────────────────────────────────────────────┐║║
+║║└────────────────────────────────────────────────────────────────────────────┘║║
+║║ BATCH SIZE: 18.92716800                                                      ║║
+║║ BOIL SIZE: 20.81988500                                                       ║║
+║║ BOIL TIME: 60                                                                ║║
+║║ EFFICIENCY: 72.0                                                             ║║
+║║┌HOPS────────────────────────────────────────────────────────────────────────┐║║
+║║│┌HOP───────────────────────────────────────────────────────────────────────┐│║║
+║║││ NAME: Goldings, East Kent                                                ││║║
+║║││ VERSION: 1                                                               ││║║
+║║││ ORIGIN: United Kingdom                                                   ││║║
 
 ## As HTML
 * Terminal window and MS Windows CSS themes provided.
