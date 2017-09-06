@@ -2,7 +2,7 @@
 A couple of zero or low configurable stylesheets to transform *any* data-centric XML document to provide an automated visualisation as ASCII or HTML fieldset presentation. For example it is ideal as a quick and no fuss rendition for FpML documents. 
 
 ## As ASCII
-'''
+```
 ╔Request Confirmation════════════════════════════════════════════════════════════╗
 ║ Fpml Version: 5-0                                                              ║
 ║╔Header════════════════════════════════════════════════════════════════════════╗║
@@ -28,8 +28,7 @@ A couple of zero or low configurable stylesheets to transform *any* data-centric
 ║║│ Id: TRADEDATE                                                              │║║
 ║║│ Trade Date: 2006-12-05Z                                                    │║║
 ║║└────────────────────────────────────────────────────────────────────────────┘║║
-
-'''
+```
 
 ## As HTML
 * Terminal window and MS Windows CSS themes provided.
