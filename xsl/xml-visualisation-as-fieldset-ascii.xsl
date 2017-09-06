@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-    xmlns:functx="http://www.functx.com" 
     xmlns:local="local" 
     xmlns:l="local" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="#all">
-
-    <xsl:import href="functx-1.0-nodoc-2007-01.xslt"/>
 
     <xsl:output method="text" encoding="UTF-16"/>
 
@@ -81,7 +78,7 @@
 
         <xsl:variable name="void" select="$node/local-name()"/>
         <xsl:variable name="void" select="local:camel-case-to-words($void, ' ')"/>
-        <xsl:variable name="void" select="functx:capitalize-first($void)"/>
+        <xsl:variable name="void" select="concat(upper-case(substring($void,1,1)), substring($void,2))"/>
         <xsl:variable name="void" select="translate($void, '.-_', '   ')"/>
 
         <xsl:value-of select="$void"/>
@@ -89,10 +86,10 @@
     </xsl:function>
 
     <xsl:function name="local:camel-case-to-words" as="xs:string">
-        <xsl:param name="arg" as="xs:string?"/>
+        <xsl:param name="string" as="xs:string?"/>
         <xsl:param name="delim" as="xs:string"/>
 
-        <xsl:variable name="chars" select="functx:chars($arg)"/>
+        <xsl:variable name="chars" select="for $i in string-to-codepoints($string) return codepoints-to-string($i)"/>
         <xsl:variable name="void"
             select="
                 for $i in 1 to count($chars)
